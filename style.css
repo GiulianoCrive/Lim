@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    
+    background-image: url("img/background.jpg");
+    background-size: cover;
+    margin: auto;
+    width: 1500px;  
+}
+
+.backgroundblack{
+
+    background-color: rgba(0, 0, 0, 0.555);
+    border-radius: 20px;
+    padding: 10%;
+    margin-top: 8%;
+}
+
+.textaligncenter{
+    text-align: center;
+}
+
+img{
+    width: 25%;
+}
+
+header h1{
+    display: block;
+    color: rgb(34, 219, 39);
+    font-size: 40px;  
+}
+
+nav{
+    background-color: rgb(34, 219, 39);
+    padding: 1%;  
+    margin-bottom: 3%;
+    /*margin-top: 1%;*/
+}
+
+main{
+    color: white;   
+}
+
+span > strong{
+    font-size: 25px;
+}  
+
+.rightarrow::before{
+    content: "\21A6"; 
+}
+
+.chargedstate{
+    height: 25px;
+    border-radius: 5px;
+    margin-bottom: 3%;
+}
+
+.first{
+    width: 350px;
+    background-color: rgb(255, 193, 79);
+}
+
+.second{
+    width: 500px;
+    background-color: rgb(0, 173, 0);
+}
+
+.third{
+    width: 150px;
+    background-color: rgb(230, 46, 46);
+}
+
+
+
+
+
+
+
